@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(95, 93, 93);
+    color: white;
+}
+
+.posts ul li h3{
+    border: 2px solid white;
+    width: 80px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.posts ul li small{
+    border: 2px solid black;
+}
+.posts ul li{
+    padding-top: 20px;
+}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="posts">
+    <h1>Postlar</h1>
+    
+    <ul>
+        {% for post in posts %}
+        <li>
+            <h3>{{post.post_sahibi}}</h3>
+            <h4>{{post.basliq}}</h4>
+            <p>{{post.post}}</p>
+            <small>{{post.yaranma_tarixi}}</small>
+        </li>
+        <hr>
+
+        {% endfor %}
+       
+    </ul>
+
+</div>
+{% endblock body %}
